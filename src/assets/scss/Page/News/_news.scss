@@ -1,0 +1,84 @@
+#news {
+  max-width: 940px;
+  margin: "auto";
+  .ant-tabs-top > .ant-tabs-nav::before {
+    border-bottom: none;
+  }
+  .ant-tabs-nav .ant-tabs-tab {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    transition: all 0.2s;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 24px;
+    height: 24px;
+    &:hover {
+      font-size: 24px;
+    }
+  }
+  .ant-tabs > .ant-tabs-nav .ant-tabs-nav-list {
+    position: relative;
+    transition: transform 0.3s;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: center
+  }
+  .ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap {
+    align-self: center;
+    justify-content: center;
+  }
+  .ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar {
+    height: 0;
+  }
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    line-height: 24px;
+    height: 24px;
+    font-size: 24px;
+    color: #fa5238;
+  }
+  .ant-tabs-tab-btn:active {
+    color: #fa5238; 
+  }
+  .news__news {
+    color: #000;
+    &:hover {
+      color: #000;
+      text-decoration: none;
+    }
+    .new__image {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+  }
+  .py-3 {
+    .card-title {
+      font-size: 17px;
+      font-weight: bold;
+      &:hover {
+        color: #fa5238;
+      }
+    }
+    .text-secondary {
+      font-size: 13px;
+    }
+  }
+  .news__bonusNew {
+    color: #000;
+    &:hover {
+      color: #fa5238;
+      text-decoration: none;
+      .text-secondary {
+        transition: color 0.2s;
+        margin-bottom: 5px;
+        &:hover {
+          color: #fa5238;
+        }
+      }
+    }
+  }
+}

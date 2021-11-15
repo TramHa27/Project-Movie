@@ -1,0 +1,38 @@
+.ghe {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 15px;
+  background-color: rgba(123, 122, 122);
+  color: #fff;
+}
+
+.gheDaDat {
+  background-color: rgb(232, 76, 76);
+  cursor: no-drop;
+}
+
+.gheDangDat {
+  background-color: rgb(18, 176, 18) !important;
+}
+
+.gheVip {
+  background-color: rgb(228, 213, 8);
+}
+
+.gheDaDuocDat {
+  /* ghế được mình đặt */
+  background-color: rgb(246, 246, 246);
+  -webkit-box-shadow: 5px 5px 15px -1px orange;
+  box-shadow: 5px 5px 15px -1px orange;
+  color: orange !important;
+  border: 1px solid orange;
+}
+
+.gheKhachDat {
+  background-color: hotpink !important;
+  cursor: no-drop;
+  
+}

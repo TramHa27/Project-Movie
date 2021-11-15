@@ -1,0 +1,23 @@
+.home-menu-btn {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 30px;
+  height: 30px;
+  padding: 0 10px;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 1px;
+  &:hover {
+    font-size: 24px;
+    color: #fa5238;
+  }
+}
+
+.btn-active {
+    color: #fa5238;
+    @apply text-base md:text-2xl
+}

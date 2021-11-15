@@ -1,0 +1,30 @@
+.cinema-tabs {
+  .ant-tabs-left > .ant-tabs-nav .ant-tabs-ink-bar {
+    position: absolute;
+    background: #fa5238;
+    pointer-events: none;
+  }
+
+  .ant-tabs-tab-active {
+    @apply bg-gray-100;
+  }
+
+  .ant-tabs-left
+    > .ant-tabs-content-holder
+    > .ant-tabs-content
+    > .ant-tabs-tabpane,
+  .ant-tabs-left
+    > div
+    > .ant-tabs-content-holder
+    > .ant-tabs-content
+    > .ant-tabs-tabpane {
+    padding-left: 10px;
+  }
+  .ant-tabs-left > .ant-tabs-nav .ant-tabs-tab,
+  .ant-tabs-right > .ant-tabs-nav .ant-tabs-tab,
+  .ant-tabs-left > div > .ant-tabs-nav .ant-tabs-tab,
+  .ant-tabs-right > div > .ant-tabs-nav .ant-tabs-tab {
+    padding: 10px;
+  }
+  
+}

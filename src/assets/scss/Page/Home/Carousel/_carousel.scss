@@ -1,0 +1,48 @@
+.slick__prev__arrow {
+  position: absolute;
+  top: 40%;
+  background-image: url("../../../../img/back-session.png");
+  border: none;
+  width: 50px;
+  height: 100px;
+  z-index: 2;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.slick__next__arrow {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  background-image: url("../../../../img/next-session.png");
+  border: none;
+  width: 50px;
+  height: 100px;
+  z-index: 2;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+ul.slick-dots li button::before {
+  display: block;
+  width: 12px;
+  height: 12px;
+  font-size: 10px;
+  color: white;
+  opacity: 0.5;
+}
+
+ul.slick-dots li.slick-active button::before {
+  display: block;
+  width: 12px;
+  height: 12px;
+  font-size: 10px;
+  color: red;
+  opacity: 1;
+}

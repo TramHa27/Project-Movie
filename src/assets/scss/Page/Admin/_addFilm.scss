@@ -1,0 +1,12 @@
+.addFilm {
+  .ant-switch-checked {
+    @apply bg-gradient-to-br from-purple-500 via-indigo-500 to-indigo-500;
+  }
+  .ant-switch:focus {
+    box-shadow: none;
+  }
+  .ant-input-number,
+  .ant-picker {
+    @apply border shadow-none border-gray-300 hover:border-gray-300 focus-within:border-gray-300;
+  }
+}

@@ -1,0 +1,25 @@
+@import './Base/reset';
+@import './Base/body';
+// Helper
+@import './Helper/variable';
+@import './Helper/mixin';
+//Pages
+@import './Page/Application/application';
+@import './Page/News/news';
+@import './Page/Detail/detail';
+@import './Page/Checkout/checkout';
+@import './Page/Profile/profile';
+@import './Page/Home/Carousel/carousel';
+@import './Page/Home/HomeMenu/homemenu';
+@import './Page/Home/HomeMenu/film';
+@import './Page/Home/HomeMenu/cinema';
+@import './Page/Home/Header/header';
+@import './Page/Admin/users';
+@import './Page/Admin/films';
+@import './Page/Admin/addFilm';
+@import './Page/Admin/editFilm';
+@import './Page/Admin/showtimes';
+
+
+//react-modal-video
+@import 'node_modules/react-modal-video/scss/modal-video.scss';

@@ -1,0 +1,85 @@
+.MaxWidth940 {
+    max-width: 940px;
+    margin: auto;
+}
+
+#wrapHomeApp {
+    #homeApp {
+        padding: 120px 0 80px 0;
+        background-image: url("../../../img/bg2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        .app_textLeft {
+            color: #fff;
+            font-weight: 700;
+            font-size: xx-large;
+        }
+        .app_textSmallLeft {
+            color: #fff;
+            font-size: medium;
+        }
+        #app_buttonLeft {
+            background-color: #fb4226;
+            padding: 10px 20px;
+            color: #fff;
+            font-size: medium;
+            font-weight: 700;
+            border: none;
+            border-radius: 4px;
+        }
+        .app_textUnder {
+            color: #fff;
+            padding-top: 10px;
+        }
+        .app_content_right {
+            position: relative;
+            padding: 0;
+            .phone_img {
+                max-width: 100%;
+                padding: 0 28%;
+                display: block;
+                height: auto;
+            }
+            .app_phoneSlider {
+                position: absolute;
+                padding: 1.5% 29.3% 0 29.3%;
+                width: 100%;
+                top: 0;
+                left: 0;
+                .slick-list {
+                    border-radius: 20px;
+                }
+                .slick-slide {
+                    height: auto;
+                }
+                .slickComponent {
+                    position: relative;
+                }
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+#application{
+    @include Responsive(xl){
+      
+    }
+    @include Responsive(md){
+      
+        
+    }
+    @include Responsive(sm){
+      
+      
+    }
+    @include Responsive(xs){
+        .app_content_left{
+            margin: 5px;
+        }
+       
+    }
+}
